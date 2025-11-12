@@ -1,0 +1,102 @@
+AKTU College Predictor
+
+The AKTU College Predictor is a web tool designed to assist students in identifying the best-fit colleges under Dr. A.P.J. Abdul Kalam Technical University (AKTU) based on their entrance exam rank. It simplifies the college selection process and empowers students to make data-driven decisions with an easy-to-use interface.
+
+Features
+
+Rank-Based Predictions: Students input their rank to receive a list of colleges where they are likely to be admitted.
+
+Comprehensive College Database: Includes a wide range of colleges under AKTU.
+
+User-Friendly Interface: Designed for ease of use with a responsive and clean layout.
+
+Real-Time Updates: Regularly updated database with the latest admission trends and cutoffs.
+
+Customizable Filters: Provides results based on filters like category, quota, and program.
+
+Objective
+
+The objective of this project was to build a tool that assists students in making informed decisions when selecting a college. By using their rank, students can get a personalized list of AKTU-affiliated colleges, making the admission process simpler and more transparent.
+
+Technologies Used
+
+Frontend: React.js for building a dynamic, responsive, and user-friendly interface.
+
+Backend: Node.js with Express.js to handle the logic for processing user inputs and generating college predictions.
+
+Database: MongoDB for storing college data, including cutoffs and other admission criteria.
+
+Additional Tools: JavaScript for data processing and user input handling.
+
+Setup Instructions
+Prerequisites
+
+Node.js (version 12 or higher)
+
+MongoDB (for local testing or using a cloud instance like MongoDB Atlas)
+
+Installation
+
+Clone the repository to your local machine:
+
+git clone https://github.com/your-username/aktu-college-predictor.git
+cd aktu-college-predictor
+
+
+Install dependencies:
+
+For the backend:
+
+cd backend
+npm install
+
+
+For the frontend:
+
+cd frontend
+npm install
+
+
+Set up MongoDB connection (either use a local instance or create a cloud-based MongoDB instance).
+
+Run the backend server:
+
+cd backend
+npm start
+
+
+Run the frontend server:
+
+cd frontend
+npm start
+
+
+Open the app in your browser at http://localhost:3000.
+
+How It Works
+
+Rank Input: Users enter their rank into the input field.
+
+Database Search: The backend fetches the most relevant colleges based on the rank from the MongoDB database.
+
+Results Display: The frontend displays a list of colleges the user is most likely to be admitted to, including the option to filter by category or program.
+
+Contributing
+
+Fork the repository.
+
+Create a new branch for your feature or bug fix.
+
+Commit your changes and push to the branch.
+
+Submit a pull request.
+
+License
+
+This project is licensed under the MIT License.
+
+Acknowledgments
+
+Dr. A.P.J. Abdul Kalam Technical University for providing the educational foundation.
+
+All the contributors who helped build and improve this tool.
